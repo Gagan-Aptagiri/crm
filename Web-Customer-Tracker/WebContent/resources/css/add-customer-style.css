@@ -20,6 +20,10 @@ input {
 	font-size: 16px;
 }
 
+input[type="button"]{
+	cursor: pointer;
+}
+
 .save {
 	font-weight: bold;
 	width: 130px; 

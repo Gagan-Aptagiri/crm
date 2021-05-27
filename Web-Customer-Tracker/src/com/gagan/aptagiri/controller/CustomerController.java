@@ -8,12 +8,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.gagan.aptagiri.dao.CustomerDAO;
 import com.gagan.aptagiri.entity.Customer;
 import com.gagan.aptagiri.service.CustomerService;
 
 @Controller
-@RequestMapping("/customer/")
+@RequestMapping("/customer")
 public class CustomerController {
 	
 	// need to inject the customer service
